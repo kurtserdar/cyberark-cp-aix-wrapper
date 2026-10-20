@@ -1,0 +1,12 @@
+# Example properties template
+# This is a copy of the application's real properties file with the password
+# replaced by the __PASSWORD__ placeholder. The wrapper script (cyberark-wrapper.sh)
+# generates the real properties file from this template on every start.
+#
+# Edit THIS file to change any application setting. Do not edit the generated
+# app.properties; it is overwritten on each start.
+
+db.url=jdbc:db2://dbhost:50000/PROD
+db.user=appuser
+db.password=__PASSWORD__
+db.timeout=30
